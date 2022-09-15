@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registrate</title>
+</head>
+<body>
+  <header>
+    <h1>registrate</h1>
+  </header>
+  <form>
+
+    <label for="nombres">nombres</label>
+    <br>
+    <input name="nombres-del-usuario" id="nombres" required placeholder="escribe tu nombre aqui">
+
+    <br>
+    <p> </p>
+
+    <label for="apellidos">apellidos</label>
+    <br>
+    <input name="apellidos-de-usuario" id="apellidos" required placeholder="escribe tus apellidos aqui">
+
+    <br>
+    <p> </p>
+
+    <label for="usuario">usuario nuevo</label>
+    <br>
+    <input name="usuario-nuevo" id="usuario" required placeholder="escribe tu usuario aqui">
+
+    <br>
+    <p> </p>
+
+    <label for="contraseña">nueva contraseña</label>
+    <br>
+    <input type="password" name="contrasena-del-usuario" id="contraseña" required placeholder="escribe tu contraseña aqui">
+
+    <br>
+    <p> </p>
+
+    <input type="password" name="confirmar-contrasena" placeholder="confirmar contraseña">
+
+    <br>
+    <p> </p>
+
+    <label for="tel">digita tu telefono</label>
+    <br>
+    <input type="number" name="telefono-del-usuario" id="tel" required placeholder="digita tu telefono">
+
+    <br>
+    <p> </p>
+
+    <label for="email">escribe tu email</label>
+    <br>
+    <input type="email" name="email-del-usuario" id="email" required placeholder="escribe tu email aqui">
+
+    <br>
+    <p> </p>
+
+    <label>¿cual es tu genero?</label>
+    <br>
+    <input type="radio" name="sex" id="masculino" value="hom">
+    <label for="masculino">hombre</label>
+    <br>
+    <input type="radio" name="sex" id="femenino" value="fem">
+    <label for="femenino">mujer</label>
+    <br>
+    <input type="radio" name="sex" id="indefinido" value="indef">
+    <label for="indefinido">no precisa</label>
+
+    <br>
+    <p> </p>
+
+    <label for="distrito">¿cual es tu distrito?</label>
+    <br>
+    <select id="distrito" name="distrito" required>
+      <option value="" disabled selected>elige tu distrito</option>
+      <option value="a">magdalena del mar</option>
+      <option value="b">san miguel</option>
+      <option value="c">san isidro</option>
+      <option value="d">miraflores</option>
+      <option value="e">pueblo libre</option>
+      <option value="f">jesus maria</option>
+    </select>
+
+    <br>
+    <p> </p>
+
+    <label>¿cuales son tus generos de peliculas favoritas?</label>
+    <br>
+    <input type="checkbox" name="pelicula" value="terr" id="terror">
+    <label for="terror">terror</label>
+    <br>
+    <input type="checkbox" name="pelicula" value="comedia" id="come">
+    <label for="come">comedia</label>
+    <br>
+    <input type="checkbox" name="pelicula" value="romantica" id="roman">
+    <label for="roman">romantica</label>
+    <br>
+    <input type="checkbox" name="pelicula" value="suspenso" id="suspen">
+    <label for="suspen">suspenso</label>
+
+    <br>
+    <p> </p>
+
+    <label for="message">escribe una pequeña biografia</label>
+    <br>
+    <textarea name="biografia" id="message" cols="30" rows="10" required placeholder="escribe tu biografia"></textarea>
+
+    <br>
+    <p> </p>
+
+    <input type="submit" value="registrarme">
+  </form>
+
+  <p> </p>
+
+  <footer>derechos reservados / desarrollado por <a href="https://www.youtube.com/">joshua villamizar</a>
+  </footer>
+</body>
+</html>
