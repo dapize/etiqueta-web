@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contactame</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>contactame</h1>
+    </header>
+    <form>
+      <label for="name">nombre:
+      </label>
+      <br>
+      <input id="name" name="nombre-de-usuario" required placeholder="coloca tu nombre">
+      <br>
+      <p> </p>
+      <label for="email">email</label>
+      <br>
+      <input id="email" name="email-de-usuario" type="email" required placeholder="escribir email">
+      <br>
+      <p> </p>
+      <label for="phone">telefono</label>
+      <br>
+      <input id="phone" name="telefono-del-usuario" type="number" required placeholder="digita numero">
+      <br>
+      <p> </p>
+      <label for="distrito">distrito</label>
+      <br>
+    <select name="distrito" id="distrito" required>
+      <option value="" selected disabled>selecciona tu distrito</option>
+      <option value="1">magdalena del mar</option>
+      <option value="2">san miguel</option>
+      <option value="3">pueblo libre</option>
+      <option value="4">jesus maria</option>
+    </select>
+    <br>
+    <p> </p>
+    <label>¿cual es tu sexo?</label>
+    <br>
+
+    <input type="radio" value="mas" name="sexo"id="masculino">
+    <label for="masculino">masculino</label>
+    <br>
+
+    <input type="radio" value="fem" name="sexo"id="femenino" checked>
+    <label for="femenino">femenino</label>
+    <br>
+
+    <input type="radio" value="indefinido" name="sexo" id="indefinido">
+    <label for="indefinido">indefinido</label>
+    <br>
+
+    <p> </p>
+    <label for="messenger">mensaje</label>
+      <br>
+      <textarea id="messenger" rows="4" cols="50" name="mensaje-del-usuario" requiered placeholder="redacta tu mensaje"></textarea>
+      <br>
+      <p> </p>
+    <input type="submit" value="envia igual no te haremos caso">
+
+
+  </form>
+
+
+  </main>
+</body>
+</html>
